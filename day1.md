@@ -5,15 +5,25 @@
 Name, programming background, kinds of things you work on and are interested in.
 
 Noel: Scala 10 years, ML, PL, teaching
+
 Arun: Nemesis, Java, apply FP to build real world systems
+
 Eric: C++, Objective-C, Python, client side and backend. Video games.
+
 Kaushik: C++, C, Java, Python. Past 5 years moving to Scala (previous job, Cats, IO). Advanced topics, cutting edge stuff.
+
 Nevin: Python, Java, C++. Web development, Javascript, Typescript. Mobile app development, Kotlin, Swift. A bit of Scala in previous job. R & Matlab in small quantities. Explore a new language, learn more about FP.
+
 Akash: Nemesis, NodeJS. Understand how to write production level code.
+
 Arsalan: Web, Python. 1.5 years Scala. Data lake governance. Safety. Types. Make code accessible. Patterns / strategies.
+
 Neelam: Data lake / data engineering team. 3.5 years. Working w/ Scala for 2 years. Previously Java, C / C++. Interested in learning about metaprogramming, Cats.
+
 Karine Mellata: SE. First job out of college. 1 year Scala. Goal is design systems in Scala. Architecture / design. Efficient code for concurrency. Data engineering.
+
 Swapna Marru
+
 Yash Kotresh
 
 
@@ -132,6 +142,7 @@ When the data is recursive the method is recursive.
 ## Reification
 
 Abstract: Make the abstract concrete
+
 Concrete: Make methods into data structures
 
 ## Interpreters
