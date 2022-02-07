@@ -127,3 +127,49 @@ final case class C() extends A {
 ### Recursion Rule
 
 When the data is recursive the method is recursive.
+
+
+## Reification
+
+Abstract: Make the abstract concrete
+Concrete: Make methods into data structures
+
+## Interpreters
+
+Interpreters separate description from action
+- In FP this is used to handle effects
+
+Pure function:
+- deterministic; given the same inputs you get the same outputs
+
+Impure functions:
+- functions that are not pure. Have side effects.
+
+```scala
+val x = 1 + 1
+val x = 2
+val y = 2 + 3
+val y = 5
+```
+
+Substitution is very simple.
+
+Side effects are anything that break substitution:
+- state
+- network IO
+- disk IO
+
+```scala
+println("Hi")
+()
+```
+
+println break substitution.
+
+Interpreters allow us to handle effects by only carrying out effects in the "action" portion. We can freely substitute while we're still describing things.
+
+```scala
+val s = Stream.emit(...).map(x => ???)
+// Lots of code and time passes
+val s2 = s.map(x => ???)
+```
