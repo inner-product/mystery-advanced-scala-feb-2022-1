@@ -139,11 +139,23 @@ final case class C() extends A {
 When the data is recursive the method is recursive.
 
 
+## Algebras
+
+Fancy FP word mostly meaning the same as an interface. Consists of three parts:
+
+- constructors create instances of the algebra from some other type. E.g. constructors for stream are methods that go from things that are not streams to a stream (`emit`, `constant`, etc.)
+- combinators combine an instance of the algebra and other stuff (which may be another instance of the algebra but may not be) to produce another instance. E.g. for stream map combines a stream and a function to produce a new stream
+- interpreters go from an instance of the algebra to something else. E.g. for stream foldLeft goes from a stream to a value of type `B`.
+
+
 ## Reification
 
 Abstract: Make the abstract concrete
 
 Concrete: Make methods into data structures
+
+Reification is an implementation strategy for interpreters. Reify constructors and combinators to create data structure that a "tree walking" interpreter can then process.
+
 
 ## Interpreters
 
