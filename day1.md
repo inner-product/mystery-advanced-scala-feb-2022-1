@@ -20,11 +20,7 @@ Arsalan: Web, Python. 1.5 years Scala. Data lake governance. Safety. Types. Make
 
 Neelam: Data lake / data engineering team. 3.5 years. Working w/ Scala for 2 years. Previously Java, C / C++. Interested in learning about metaprogramming, Cats.
 
-Karine Mellata: SE. First job out of college. 1 year Scala. Goal is design systems in Scala. Architecture / design. Efficient code for concurrency. Data engineering.
-
-Swapna Marru
-
-Yash Kotresh
+Karine: SE. First job out of college. 1 year Scala. Goal is design systems in Scala. Architecture / design. Efficient code for concurrency. Data engineering.
 
 
 ## Admin
